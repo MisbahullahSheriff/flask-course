@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<form action="" method="post">
+    {{ form.hidden_tag() }}
+    <div>
+        {{ form.username.label }}
+        {{ form.username }}
+        {% if form.username.errors %}
+            {% for error in form.username.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.email.label }}
+        {{ form.email }}
+        {% if form.email.errors %}
+            {% for error in form.email.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.gender.label }}
+        {{ form.gender }}
+        {% if form.gender.errors %}
+            {% for error in form.gender.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.dob.label }}
+        {{ form.dob }}
+        {% if form.dob.errors %}
+            {% for error in form.dob.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.password.label }}
+        {{ form.password }}
+        {% if form.password.errors %}
+            {% for error in form.password.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>
+        {{ form.confirm_password.label }}
+        {{ form.confirm_password }}
+        {% if form.confirm_password.errors %}
+            {% for error in form.confirm_password.errors %}
+                <div>{{ error }}</div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <br>
+    <div>{{ form.submit() }}</div>
+    <br>
+    <div>
+        <p>Already Registered? <a href="{{ url_for('login') }}">Login</a></p>
+        <p>Redirect to Homepage? <a href="{{ url_for('home') }}">Home</a></p>
+    </div>
+</form>
+{% endblock content %}
