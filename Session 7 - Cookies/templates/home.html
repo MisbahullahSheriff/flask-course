@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div>
+    <h3>Contents:</h3>
+    <ul>
+        <li><a href="{{ url_for('about') }}">About</a></li>
+        <li><a href="{{ url_for('contact') }}">Contact</a></li>
+    </ul>
+</div>
+{% endblock content %}
