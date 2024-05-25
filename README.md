@@ -54,5 +54,6 @@ Welcome to the Flask Course repository! This course is designed to provide an in
 - Serving a machine learning model as an API using Flask
 - Deploying Flask applications using Render
 
+<br>
 Happy learning! 🌟 <br>
 Hope you enjoy the course 😊
