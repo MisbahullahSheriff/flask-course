@@ -4,6 +4,10 @@
 
 Welcome to the Flask Course repository! This course is designed to provide an in-depth understanding of Flask, a popular web framework for Python 🐍 Across 8 comprehensive sessions, you will learn the fundamental concepts of web development 💻 with Flask, ranging from basic URL building to deploying machine learning models. Each session includes relevant theory and practical web application examples 🚀 with code.
 
+## Relevant Links
+- [Course](https://learnwith.campusx.in/courses/Flask-for-Machine-Learning-Introduction-to-Flask--Dynamic-URL-Redirection-URL-Building-Jinja-Templates-Forms--Input-Validation-Databases-Sessions-Cookies-Training--Deloyment-of-ML-Model-6658698ad54433398d1a487b)
+- [Instructor](https://www.linkedin.com/in/mohammed-misbahullah-sheriff/) 
+
 ## Course Contents
 
 ### Session 1: Introduction to Flask
